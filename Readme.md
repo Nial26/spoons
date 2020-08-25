@@ -27,7 +27,7 @@ Pushes an Image that is currently on the clipboard to imgur
 ```
 hs.spoons.use('Screenpush', {
     config = {
-        IMGUR_CLIENT_ID = '546c25a59c58ad7'
+        IMGUR_CLIENT_ID = '<some-imgur-client-id>'
     },
     hotkeys = {Screenpush = {{"cmd", "shift"}, "/"}},
 })
